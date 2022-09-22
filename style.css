@@ -38,13 +38,6 @@ flex-container1 {
 
 }
 
-header {
-  background-color: white;
-
-
-
-}
-
 .container1 {
   direction: rtl;
   display: flex;
@@ -134,16 +127,4 @@ div.social {
 .social-media-icons {
   padding: 5px;
 }
-@media only screen and (max-width: 768px) {
-  .container {
-          display: grid;
-          
-      
-}
-
-@media only screen and (max-width: 480px) {
-  .container {
-          display: grid;
-          
-  }
-}
+/* On sc
