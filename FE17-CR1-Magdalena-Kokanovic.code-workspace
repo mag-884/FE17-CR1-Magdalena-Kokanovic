@@ -5,6 +5,7 @@
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "FE17-CR1-Magdalena-Kokanovic"
+		"liveServer.settings.multiRootWorkspaceName": "FE17-CR1-Magdalena-Kokanovic",
+		"liveServer.settings.port": 5501
 	}
 }

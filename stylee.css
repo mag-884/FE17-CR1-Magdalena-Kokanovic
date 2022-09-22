@@ -1,0 +1,28 @@
+body{
+    margin:100px;
+    pading: 150px;
+    background: #ede9e9;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+.text-box{
+
+    font-size: 25px;
+    color: rgb(163, 18, 81);
+    position:relative;
+}
+.banner1{
+    height:100%;
+    width:100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+img{
+    width:1400px;
+    height: 500px;
+    top:10%;
+    transform:translate(-50% -50%);
+
+}

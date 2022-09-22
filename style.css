@@ -1,22 +1,49 @@
 * {
   background-color: rgb(249, 249, 253);
-  scroll-behavior: smooth;
-  size: 100%;
+size:100%;
+
+}
+
+img {
+
+  max-width: 100%;
+  height: auto;
+
+}
+
+h2 {
+  font: 12px;
+  font-style: italic;
+  font-family:fantasy;
+  color: #150723;
+
+
+}
+
+form {
+  background-color: rgb(205, 205, 203);
+  width: 1800px;
+
+  display: flex;
+  flex-direction: row;
+  text-align: right;
+
+}
+
+flex-container1 {
+  display: flex;
+  text-align: right;
+
 
 
 }
 
 header {
-  margin: 2, 5px;
-  text-align: justify;
-  text-shadow: 2cm;
   background-color: white;
-  position: initial;
+
 
 
 }
-
-
 
 .container1 {
   direction: rtl;
@@ -24,28 +51,23 @@ header {
   flex-wrap: wrap;
 
 
-
 }
-
-
 
 .grid-container {
 
   margin: 20px;
-  grid-row-end: 3;
-  grid-area: 3/3/3/3;
+  grid: row end 3px;
   grid-template-columns: auto auto auto;
-  position: relative;
-  image size: 25px;
   display: grid;
-  column-gap: 20px;
+  column-gap: 40px;
   row-gap: 10px;
   justify-content: space-between;
-  
+
 
 
 
 }
+
 .grid-container img:hover {
   opacity: 1;
   transform: scale(1.1);
@@ -62,30 +84,14 @@ header {
 
 
 }
-
-
-
-
-/*.footer {
-
-
-}*/
-
-
 footer * {
   font-family: 'Courier New', Courier, monospace;
-  font-style: initial;
-  background-color: #121315;
-  color: #a7a7a7;
-  font-size: 18px;
-  position: relative;
-  box-shadow: #3b3b3c;
+  background-color: #01050c;
+  color: #ea32b3;
+  font-size: 14px;
   text-align: center;
 }
 
-.row {
-  padding: 1em 1em;
-}
 
 .row.primary {
   display: grid;
@@ -111,40 +117,33 @@ input button {
 }
 
 button {
-  background-color: #0a0a0a;
-  color: #353434;
+  background-color: #b4b1b8;
+
+
 }
 
 div.social {
   font-size: 2.4em;
   flex-direction: row;
-  margin-top: 0.5em;
-}
-
-.social i {
-  color: #090909;
-  text-shadow: #1a1818;
+  margin-top: 1em;
 }
 
 
 
 
-.footer-menu a {
-  color: #3b3b3c;
-  padding: 6px;
-
-
-
+.social-media-icons {
+  padding: 5px;
+}
+@media only screen and (max-width: 768px) {
+  .container {
+          display: grid;
+          
+      
 }
 
-.footer a:hover {
-  color: #353434
-}
-
-
-/*design for smartphones*/
-@media(max-width: <450px) {
-  body {
-    background-color for smartphones: rgb(183, 183, 245);
+@media only screen and (max-width: 480px) {
+  .container {
+          display: grid;
+          
   }
 }
