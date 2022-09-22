@@ -1,63 +1,58 @@
-* {
-    display: 1950px;
-    background-color: rgb(171, 224, 174);
-    font-position: center;
-    text-shadow: rgb(10, 11, 10);
-
-}
-
-
-
-
-
-.container-head {
-
+.container{
+    font-family: bold;
+    width: 700px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 0px 50px;
+    box-shadow: 0px 15px 20px 20px #0b8173;
+    font-family: 'Happy Monkey', cursive;
+  
+  }
+  header{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    justify-content: space-between;
+  padding: 10px 0;
+  color: rgb(0, 0, 0);
+  }
+  box-1{
+    display: flex;
+    justify-content: center;
+  }
+  img {
+    width: 400px;
+    height: 450pxpx;
+    
+  }
+  
+
+
+
+  .main-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+  }
+  
+  
+  
+  li{
+    color: #707070;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    
+  
+  }
+  
+  
+
+  
+  footer{
+    display: flex;
     justify-content: space-around;
-
-
-}
-
-
-
-.box1 {
-    flex: 1;
-
-
-}
-
-.box2 {
-    flex: 1;
-
-
-
-}
-
-.title {
-    font-size: 50px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-style: oblique;
+  
     text-align: center;
-}
-
-
-
-
-
-img {
-
-    width: 250px;
-    height: 200px;
-
-}
-
-
-
-
-body {
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-
-}
+  }

@@ -1,62 +1,46 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Food blog</title>
-  <style>
-    /* Media Query for Mobile Devices */
-    @media (max-width: 480px) {
-            body {
-                background-color: rgb(0, 26, 255);
-                
-            }
-        }
-        
-        /* Media Query for Tablets Ipads portrait mode */
-        @media (min-width: 768px) and (max-width: 1024px){
-            body {
-                background-color: rgb(255, 0, 0);
-            }
-        } 
-  </style>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" media="screen and (min-width: 900px)" href="style.css">
+  <link rel="stylesheet" media="screen and (max-width: 600px)" href="style.css">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
   <header>
+    <div class="search-box">
+      <h1> <i>Food blog</i> </h1>
+      <hr>
+      <form id="form">
+        <input name="search" type="text" placeholder="Search">
+        <button type="submit">Search</button>
+      </form>
+    </div>
+    <br>
+    <hr>
 
-    <h2> <i>Food blog</i> </h2>
-    
+    <nav class="main-nav">
+      <a href="#"> <i>Pasta</i></a>
+      <a href="#"> <i>Taco</i></a>
+      <a href="#"> <i>Pizza</i></a>
+      <a href="#"><i>Desert</i></a>
+      <a href="#"><i>Breakfast</i></a>
+      <a href="#"><i>Lunch</i></a>
+      <a href="#"><i>Dinner</i></a>
+      <a href="recipe.html"><b> <i> Recipe Of the Monath</i></b></a>
+    </nav>
+    <br>
+
     <hr>
 
   </header>
-
-  <div class="container1">
-    <form id="form">
-      <input id="query" name="q" placeholder="Search">
-      <button>Search</button>
-    </form>
-  </div>
-
-  <div class="flex-container">
-
-    <div class="flex-container"><b>P a n c a c e s</b></div>
-    <div class="flex-container"><b>S a l a t</b></div>
-    <div class="flex-container"><b>B u f e t</b></div>
-    <div class="flex-container"><b>D e s e r t</b></div>
-
-  </div>
-
-
-  </div>
-  <hr>
-
-
-
 
   <div class="grid-container">
     <div class="grid-item"><img src="assets/breakfest1.jpg" alt="breakfest1.jpg"></div>
@@ -68,30 +52,22 @@
     <div class="grid-item"><img src="assets/desert1.jpg" alt="desert1.jpg"></div>
     <div class="grid-item"><img src="assets/desert2.jpg" alt="desert2.jpg"></div>
     <div class="grid-item"><img src="assets/desert3.jpg" alt="desert3"></div>
-
-
   </div>
-
-
   <footer>
-    <nav>
-      <a href="">Home</a>
-      <a href="http://127.0.0.1:5501/about%20us.html">About us</a>
+    <nav class="mein-nav1">
+      <a href="about-us.html">About us</a>
+      <a href="index1.html">Recipes&#127869;</a>
+      <a href="#">FAQ</a>
       <a href="https://codefactory.wien/en/contact-en/">Contact us</a>
-      <a href="recepie.html">Recepies&#127869;</a>
-      <a href="active">Social</a>
+      <br>
+      <div class="social-media-icons">
+        <!-- Add font awesome icons -->
+        <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/i/flow/login" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+        <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+      </div>
 
-
-
-    <br>
-    <div class="social-media-icons">
-      <!-- Add font awesome icons -->
-<a href="https://www.facebook.com/" class="fa fa-facebook"></a>
-<a href="https://twitter.com/i/flow/login" class="fa fa-twitter"></a>
-<a href="https://www.instagram.com/" class="fa fa-instagram"></a>
-<a href="https://www.youtube.com/" class="fa fa-youtube"></a>
-  </div>
-  
       <a href="active">Copyright2022 Magdalena Kokanovic</a>
     </nav>
   </footer>
@@ -100,4 +76,3 @@
   <div>
 
 </body>
-
