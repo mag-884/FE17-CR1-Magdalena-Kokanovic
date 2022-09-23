@@ -1,4 +1,4 @@
-.container{
+.container {
   font-family: bold;
   width: 1000px;
   text-align: center;
@@ -11,27 +11,28 @@
 
 p {
 
-  color:#707070 ;
+  color: #707070;
   font-style: oblique;
 }
 
-li{
+li {
   color: #707070;
   padding-top: 5px;
   padding-bottom: 5px;
   text-align: left;
-  
+
 
 }
 
 
-.hero{
+.hero {
 
-  background:#f4f4f4 ;
+  background: #f4f4f4;
   padding-bottom: 10px;
   size: 300px;
 }
-footer{
+
+footer {
 
   text-align: center;
 }

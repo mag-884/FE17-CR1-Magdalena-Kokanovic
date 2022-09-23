@@ -1,58 +1,62 @@
-.container{
-    font-family: bold;
-    width: 700px;
-    text-align: center;
-    margin: 0px auto;
-    padding: 0px 50px;
-    box-shadow: 0px 15px 20px 20px #0b8173;
-    font-family: 'Happy Monkey', cursive;
-  
-  }
-  header{
-    display: flex;
-    justify-content: space-between;
+.container {
+  font-family: bold;
+  width: 700px;
+  text-align: center;
+  margin: 0px auto;
+  padding: 0px 50px;
+  box-shadow: 0px 15px 20px 20px #0b8173;
+  font-family: 'Happy Monkey', cursive;
+  color: #707070;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
   padding: 10px 0;
-  color: rgb(0, 0, 0);
-  }
-  box-1{
-    display: flex;
-    justify-content: center;
-  }
-  img {
-    width: 400px;
-    height: 450pxpx;
-    
-  }
-  
+  font-style: italic;
+
+  background-color: #0b8173
+}
+
+box-1 {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 400px;
+  height: 450pxpx;
+
+}
 
 
 
-  .main-nav {
-    display: flex;
-    justify-content: space-between;
-    width: 700px;
-    margin: auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
-  }
-  
-  
-  
-  li{
-    color: #707070;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    text-align: left;
-    
-  
-  }
-  
-  
 
-  
-  footer{
-    display: flex;
-    justify-content: space-around;
-  
-    text-align: center;
-  }
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+
+
+
+li {
+  color: #707070;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: left;
+
+
+}
+
+footer {
+  margin: 10px;
+  background-color: #cadedc;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
